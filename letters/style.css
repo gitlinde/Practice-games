@@ -1,0 +1,49 @@
+*{
+    background-color: #000000;
+    margin: 0px;
+}
+/*
+#letter-container {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    width: 20vw;
+} */
+
+.main-container {
+    display: flex;
+}
+
+#letter-container {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    color: white;
+    width: 80vmin;
+    height: 80vmin;
+}
+
+.letter {
+    /* display: flex; */
+    width: 1vw;
+    height: 1vw;
+    /* background-color: blueviolet; */
+  }
+
+.letter h2 {
+    color: #b1b1b1;
+    width: 1vw;
+    height: 1vw;
+    user-select: none;
+}
+
+
+
+/* .letter h2:hover {
+    color: rgb(114, 78, 78);
+} */
+
+#input {
+    color: #ffffff;
+    margin-left: 5vw;
+}

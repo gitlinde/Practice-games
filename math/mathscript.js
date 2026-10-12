@@ -90,12 +90,12 @@ function checkUserInput() {
     if (userInput.value == correctAnswer) {
         correctOrIncorrectElem.innerHTML = `Correct ${correctCounter}x`
         wrongCounter = 0;
-        playSound('kenneth1.mp3');
+        playSound('../assets/kenneth1.mp3');
         previousEquation.innerHTML = "wp";
     } else {
         correctOrIncorrectElem.innerHTML = `Incorrect ${wrongCounter}x`;
         correctCounter = 0;
-        playSound('kenneth2.mp3');
+        playSound('../assets/kenneth2.mp3');
         previousEquation.innerHTML = `${randomNr[0]} + ${randomNr[4]} = ${correctAnswer} ≠ ${userInput.value}`;
     }
 };
