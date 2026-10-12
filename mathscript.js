@@ -96,7 +96,7 @@ function checkUserInput() {
         correctOrIncorrectElem.innerHTML = `Incorrect ${wrongCounter}x`;
         correctCounter = 0;
         playSound('kenneth2.mp3');
-        previousEquation.innerHTML = `(${randomNr[0]} + ${randomNr[4]} = ${correctAnswer}) ≠ ${userInput.value}`;
+        previousEquation.innerHTML = `${randomNr[0]} + ${randomNr[4]} = ${correctAnswer} ≠ ${userInput.value}`;
     }
 };
 
